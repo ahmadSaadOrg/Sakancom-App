@@ -4,7 +4,8 @@ import java.util.Scanner;
 import java.util.logging.Logger;
 
 public class User {
-	private static final Logger logger = Logger.getLogger(Admindashboard.class.getName());
+	//private static final Logger logger = Logger.getLogger(Admindashboard.class.getName());
+	private static final Logger logger = Logger.getLogger(User.class.getName());
 
 	public User() {
 	}
