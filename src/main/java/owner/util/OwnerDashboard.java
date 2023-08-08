@@ -123,12 +123,12 @@ break;
 
         // Check if the residence with the given ID exists
         boolean residenceExists = false;
-        for (Residences Residences : ownedResidences) {
+     //   for (Residences Residences : ownedResidences) {
             if (getId() == residenceIdToAddHouse) {
                 residenceExists = true;
-                break;
+                //break;
             }
-        }
+   //     }
 
 
         if (!residenceExists && logger.isLoggable(Level.INFO)) {
@@ -161,11 +161,11 @@ break;
         House newHouse = new House(houseId, residenceIdToAddHouse, name, description, price, houseLocation, services);
 
         // Find the residence with the given ID and add the house
-        for (Residences residences : ownedResidences) {
+     //   for (Residences residences : ownedResidences) {
             if (getId() == residenceIdToAddHouse) {
                 addmHouse(newHouse);
-                break;
-            }
+//                break;
+//            }
         }
 
         logger.info("House added to the residence successfully!");
@@ -219,13 +219,13 @@ break;
 
     public boolean isResidenceIdValid( int residenceId2) {
 
-        for (Residences residence : ownedResidences) {
+    //    for (Residences residence : ownedResidences) {
 
             if (getId() == residenceId2) {
 
                 return true;
             }
-        }
+       // }
 
         return false;
     }
