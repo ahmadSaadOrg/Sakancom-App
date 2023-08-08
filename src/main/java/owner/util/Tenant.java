@@ -454,10 +454,10 @@ public class Tenant {
   public  String newBankCard;
   public  String newEmail;
   public  String newPassword;
-  public  static boolean flageUpdatePassword = false;
-  public  static boolean flageUpdatePhone = false;
-  public  static  boolean flageUpdateBank = false;
-  public static boolean flageUpdateEmail  = false;
+  public   boolean flageUpdatePassword = false;
+  public   boolean flageUpdatePhone = false;
+  public    boolean flageUpdateBank = false;
+  public  boolean flageUpdateEmail  = false;
 
   public void viewProfile() {
     logger.info("Viewing tenant profile...");
