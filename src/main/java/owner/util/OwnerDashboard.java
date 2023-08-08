@@ -180,7 +180,7 @@ break;
 	    public int getresidenceId() {
 	        return residenceId;
 	    }
-	  public   boolean checkresidenceId;
+	   public static  boolean checkresidenceId;
     private void addresidence() {
     	
     	  logger.info("Please provide the details of the new residence:");
